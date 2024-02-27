@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6e8b25da8cb940d685b76a7eb61bd217" Name="Diagram1">
+        <EntityTypeShape EntityType="MedicinaModel.Doctor" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicinaModel.Event" Width="1.5" PointX="7.5" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicinaModel.MedCard" Width="1.5" PointX="7.5" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicinaModel.Pacient" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicinaModel.Pasport" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicinaModel.Polis" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicinaModel.PolisCompany" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicinaModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicinaModel.Type_Event" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicinaModel.Visit" Width="1.5" PointX="10.5" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="MedicinaModel.FK_Event_Doctor" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicinaModel.FK_Visit_Doctor" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicinaModel.FK_Event_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicinaModel.FK_Event_Type_Event" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicinaModel.FK_MedCard_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicinaModel.FK_Pacient_Pasport" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicinaModel.FK_Pacient_Polis" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicinaModel.FK_Visit_Pacient" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicinaModel.FK_Polis_PolisCompany" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
